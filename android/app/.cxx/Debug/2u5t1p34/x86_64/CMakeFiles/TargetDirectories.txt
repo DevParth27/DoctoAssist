@@ -1,0 +1,2 @@
+D:/DoctoAssist/Main/uba-doctor-main/android/app/.cxx/Debug/2u5t1p34/x86_64/CMakeFiles/edit_cache.dir
+D:/DoctoAssist/Main/uba-doctor-main/android/app/.cxx/Debug/2u5t1p34/x86_64/CMakeFiles/rebuild_cache.dir

@@ -3,7 +3,6 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:uba_doctor/Main_home/Screens/father.dart';
 import 'package:uba_doctor/Main_home/Screens/role_selection_screen.dart';
 
 class Splash extends StatelessWidget {
@@ -27,11 +26,10 @@ class Splash extends StatelessWidget {
           ),
         ],
       ),
-      nextScreen: const WelcomePage(),
+      nextScreen: const RoleSelectionScreen(),
       animationDuration: const Duration(seconds: 3),
       splashIconSize: height * 0.5,
       backgroundColor: Colors.black87,
     );
   }
 }
-//    //     'UBA DoctoFriend - यूबीए डॉक्टरफ्रेंड',
