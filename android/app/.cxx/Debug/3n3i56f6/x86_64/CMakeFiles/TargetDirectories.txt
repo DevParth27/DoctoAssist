@@ -1,0 +1,2 @@
+D:/UBA-MAIN/uba_doctor/android/app/.cxx/Debug/3n3i56f6/x86_64/CMakeFiles/edit_cache.dir
+D:/UBA-MAIN/uba_doctor/android/app/.cxx/Debug/3n3i56f6/x86_64/CMakeFiles/rebuild_cache.dir

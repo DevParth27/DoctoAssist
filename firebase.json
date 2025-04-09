@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "uba-doctor-svpcet",
+          "appId": "1:966143823204:android:ca8e48ca3a4bd077dd3e71",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "uba-doctor-svpcet",
+          "configurations": {
+            "android": "1:966143823204:android:ca8e48ca3a4bd077dd3e71",
+            "ios": "1:966143823204:ios:f01e62b86fe737ebdd3e71",
+            "macos": "1:966143823204:ios:f01e62b86fe737ebdd3e71",
+            "web": "1:966143823204:web:212ff7968ed7128ddd3e71",
+            "windows": "1:966143823204:web:c16e5e56871c59b3dd3e71"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    },
+    {
+      "source": "ubadoctor",
+      "codebase": "ubadoctor",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

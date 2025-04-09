@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966143823204",
+    "project_id": "uba-doctor-svpcet",
+    "storage_bucket": "uba-doctor-svpcet.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966143823204:android:ca8e48ca3a4bd077dd3e71",
+        "android_client_info": {
+          "package_name": "com.example.uba_doctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALjpV5apn8XE-yzpbg6rSOkXfiAb0LP58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+D:/UBA-MAIN/uba_doctor/android/app/.cxx/RelWithDebInfo/2n3tf49n/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/UBA-MAIN/uba_doctor/android/app/.cxx/RelWithDebInfo/2n3tf49n/armeabi-v7a/CMakeFiles/rebuild_cache.dir
